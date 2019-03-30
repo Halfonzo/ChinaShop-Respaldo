@@ -1,0 +1,18 @@
+2019-03-26T03:32:41+00:00 CRITICAL Uncaught Error: Class 'DOMDocument' not found in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php:262
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(331): LayerSlider\PHPQuery\DOMDocumentWrapper->documentCreate('utf-8')
+#1 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(673): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<!DOCTYPE HTML ...')
+#2 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(324): LayerSlider\PHPQuery\DOMDocumentWrapper->documentFragmentLoadMarkup(Object(LayerSlider\PHPQuery\DOMDocumentWrapper), 'UTF-8', '<input>')
+#3 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(225): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<input>', '')
+#4 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(198): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkup('<input>')
+#5 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php on line 262
+
+2019-03-26T03:33:16+00:00 CRITICAL Uncaught Error: Class 'DOMDocument' not found in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php:262
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(331): LayerSlider\PHPQuery\DOMDocumentWrapper->documentCreate('utf-8')
+#1 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(673): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<!DOCTYPE HTML ...')
+#2 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(324): LayerSlider\PHPQuery\DOMDocumentWrapper->documentFragmentLoadMarkup(Object(LayerSlider\PHPQuery\DOMDocumentWrapper), 'UTF-8', '<input>')
+#3 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(225): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<input>', '')
+#4 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(198): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkup('<input>')
+#5 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php on line 262
+

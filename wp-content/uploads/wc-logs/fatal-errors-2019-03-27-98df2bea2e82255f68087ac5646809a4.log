@@ -1,0 +1,70 @@
+2019-03-27T01:10:58+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php:205
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(188): TwitterOAuth->http('https://api.twi...', 'GET')
+#1 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(148): TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /var/www/html/shop/wp-content/themes/good-food/framework/function/general-functions.php(1273): TwitterOAuth->get('https://api.twi...', Array)
+#3 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/shortcodes.php(6259): cmsmasters_get_tweets('cmsmasters', '5')
+#4 /var/www/html/shop/wp-includes/shortcodes.php(325): Cmsmasters_Shortcodes->cmsmasters_twitter(Array, '', 'cmsmasters_twit...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/shop/wp-includes/shortcodes.php(199): preg_replace_callback in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php on line 205
+
+2019-03-27T01:20:08+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php:205
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(188): TwitterOAuth->http('https://api.twi...', 'GET')
+#1 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(148): TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /var/www/html/shop/wp-content/themes/good-food/framework/function/general-functions.php(1273): TwitterOAuth->get('https://api.twi...', Array)
+#3 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/shortcodes.php(6259): cmsmasters_get_tweets('cmsmasters', '5')
+#4 /var/www/html/shop/wp-includes/shortcodes.php(325): Cmsmasters_Shortcodes->cmsmasters_twitter(Array, '', 'cmsmasters_twit...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/shop/wp-includes/shortcodes.php(199): preg_replace_callback in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php on line 205
+
+2019-03-27T01:50:01+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in /var/www/html/shop/wp-content/plugins/revslider/includes/slider.class.php:1892
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/revslider/admin/revslider-admin.class.php(756): RevSliderSlider->importSliderFromPost('true', 'none', false, false, false, 'true')
+#1 /var/www/html/shop/wp-content/plugins/revslider/admin/revslider-admin.class.php(1269): RevSliderAdmin::importSliderHandle('http://104.248....', 'true', 'none', 'true')
+#2 /var/www/html/shop/wp-includes/class-wp-hook.php(286): RevSliderAdmin::onAjaxAction('')
+#3 /var/www/html/shop/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/shop/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/shop/wp-admin/admin-ajax.php(167): do_action('wp_ajax_revslid...')
+#6 {main}
+  thrown in /var/www/html/shop/wp-content/plugins/revslider/includes/slider.class.php on line 1892
+
+2019-03-27T01:50:48+00:00 CRITICAL Uncaught Error: Call to a member function delete() on null in /var/www/html/shop/wp-content/plugins/revslider/includes/slider.class.php:1892
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/revslider/admin/revslider-admin.class.php(756): RevSliderSlider->importSliderFromPost('', 'none', false, false, false, '')
+#1 /var/www/html/shop/wp-content/plugins/revslider/admin/revslider-admin.class.php(1269): RevSliderAdmin::importSliderHandle('http://104.248....', '', 'none', '')
+#2 /var/www/html/shop/wp-includes/class-wp-hook.php(286): RevSliderAdmin::onAjaxAction('')
+#3 /var/www/html/shop/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/shop/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#5 /var/www/html/shop/wp-admin/admin-ajax.php(167): do_action('wp_ajax_revslid...')
+#6 {main}
+  thrown in /var/www/html/shop/wp-content/plugins/revslider/includes/slider.class.php on line 1892
+
+2019-03-27T01:55:58+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php:205
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(188): TwitterOAuth->http('https://api.twi...', 'GET')
+#1 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php(148): TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /var/www/html/shop/wp-content/themes/good-food/framework/function/general-functions.php(1273): TwitterOAuth->get('https://api.twi...', Array)
+#3 /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/shortcodes.php(6259): cmsmasters_get_tweets('cmsmasters', '5')
+#4 /var/www/html/shop/wp-includes/shortcodes.php(325): Cmsmasters_Shortcodes->cmsmasters_twitter(Array, '', 'cmsmasters_twit...')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /var/www/html/shop/wp-includes/shortcodes.php(199): preg_replace_callback in /var/www/html/shop/wp-content/plugins/cmsmasters-content-composer/inc/twitter/twitteroauth.php on line 205
+
+2019-03-27T02:29:40+00:00 CRITICAL Uncaught Error: Class 'DOMDocument' not found in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php:262
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(331): LayerSlider\PHPQuery\DOMDocumentWrapper->documentCreate('utf-8')
+#1 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(673): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<!DOCTYPE HTML ...')
+#2 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(324): LayerSlider\PHPQuery\DOMDocumentWrapper->documentFragmentLoadMarkup(Object(LayerSlider\PHPQuery\DOMDocumentWrapper), 'UTF-8', '<input>')
+#3 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(225): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<input>', '')
+#4 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(198): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkup('<input>')
+#5 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php on line 262
+
+2019-03-27T15:22:00+00:00 CRITICAL Uncaught Error: Class 'DOMDocument' not found in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php:262
+Stack trace:
+#0 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(331): LayerSlider\PHPQuery\DOMDocumentWrapper->documentCreate('utf-8')
+#1 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(673): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<!DOCTYPE HTML ...')
+#2 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(324): LayerSlider\PHPQuery\DOMDocumentWrapper->documentFragmentLoadMarkup(Object(LayerSlider\PHPQuery\DOMDocumentWrapper), 'UTF-8', '<input>')
+#3 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(225): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkupHTML('<input>', '')
+#4 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php(198): LayerSlider\PHPQuery\DOMDocumentWrapper->loadMarkup('<input>')
+#5 /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php in /var/www/html/shop/wp-content/plugins/LayerSlider/helpers/phpQuery.php on line 262
+
